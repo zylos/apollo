@@ -1,0 +1,7 @@
+apollo:
+  image: arcturus/jenkins
+  volumes:
+    - data:/var/jenkins_home
+  ports:
+    - "4566:8080"
+  privileged: true
